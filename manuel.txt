@@ -1,0 +1,28 @@
+# Manuel d'utilisation
+
+##### Voici les différentes fonctionalités et les commandes permettant de les utiliser (le symbole ? indique que vous devez taper sur la touche "Entrée"):
+
+#### Message privé :
+
+    /mp @<pseudo> <message privé> ?
+
+#### Envoie de fichiers (taille < 10 Mo) :
+
+    /files ? <id fichier> ?
+
+#### Réception de fichiers :
+
+    /serverFiles ? <id fichier> ?
+
+#### Affichage et gestion des channels :
+
+    /channel ?
+
+    <> Rejoindre un channel :
+        /join <id channel> ?
+    <> Créer un channel :
+        /create <nom channel> <description> <nombre max d'utilisateurs> ?
+    <> Mettre à jour un channel :
+        /update <id channel> <nom channel> <description> <nombre max d'utilisateurs> ?
+    <> Supprimer un channel :
+        /delete <id channel> ?
